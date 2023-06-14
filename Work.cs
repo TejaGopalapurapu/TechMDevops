@@ -10,8 +10,10 @@ namespace Demogit
     {
         public string sayHello()
         {
+            Console.WriteLine("new line after commit");
             Console.WriteLine("Hello");
             return "Hello";
+
         }
     }
 }
